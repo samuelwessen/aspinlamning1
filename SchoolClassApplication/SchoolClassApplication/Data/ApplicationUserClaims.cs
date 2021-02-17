@@ -19,11 +19,15 @@ namespace SchoolClassApplication.Data
 
         protected override async Task<ClaimsIdentity> GenerateClaimsAsync(ApplicationUser user)
         {
+            var roles = await UserManager.GetRolesAsync(user);
+
+
             var _identity = await base.GenerateClaimsAsync(user);
 
             _identity.AddClaim(new Claim("FirstName", user.FirstName ?? ""));
             _identity.AddClaim(new Claim("LastName", user.LastName ?? ""));
-            _identity.AddClaim(new Claim("DisplayName", user.GetDisplayName() ?? ""));
+            _identity.AddClaim(new Claim("DisplayName", user.GetDisplayName ?? ""));
+            _identity.AddClaim(new Claim(ClaimTypes.Role, roles.FirstOrDefault()));
 
             return _identity;
         }

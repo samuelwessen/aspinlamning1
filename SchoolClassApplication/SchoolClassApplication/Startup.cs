@@ -30,9 +30,13 @@ namespace SchoolClassApplication
         {
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(
-                    Configuration.GetConnectionString("DefaultConnection")));
+                    Configuration.GetConnectionString("IdentityConnection")));
+            services.AddDbContext<SchoolClassApplicationDbContext>(options =>
+                options.UseSqlServer(
+                    Configuration.GetConnectionString("MainConnection")));
             services.AddDatabaseDeveloperPageExceptionFilter();
 
+            services.AddAutoMapper(typeof(Startup));
             services.AddScoped <IUserClaimsPrincipalFactory<ApplicationUser>, ApplicationUserClaims>();
             services.AddScoped<IIdentityService, IdentityService>();
 

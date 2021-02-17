@@ -28,9 +28,7 @@ namespace SchoolClassApplication.Data
         public byte[] ProfilePicture { get; set; }
 
 
-        public string GetDisplayName()
-        {
-            return $"{FirstName} {LastName}";
-        }
+        public string GetDisplayName => $"{FirstName} {LastName}";
+        
     }
 }
