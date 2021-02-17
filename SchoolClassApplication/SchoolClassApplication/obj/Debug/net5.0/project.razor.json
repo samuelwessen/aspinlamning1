@@ -15603,6 +15603,31 @@
   "RootNamespace": "SchoolClassApplication",
   "Documents": [
     {
+      "FilePath": "c:\\Users\\Samuel\\OneDrive\\Skrivbord\\inlamning för ASP\\SchoolClassApplication\\SchoolClassApplication\\Views\\SchoolClassStudents\\Delete.cshtml",
+      "TargetPath": "Views\\SchoolClassStudents\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Samuel\\OneDrive\\Skrivbord\\inlamning för ASP\\SchoolClassApplication\\SchoolClassApplication\\Views\\SchoolClassStudents\\Details.cshtml",
+      "TargetPath": "Views\\SchoolClassStudents\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Samuel\\OneDrive\\Skrivbord\\inlamning för ASP\\SchoolClassApplication\\SchoolClassApplication\\Views\\SchoolClassStudents\\Index.cshtml",
+      "TargetPath": "Views\\SchoolClassStudents\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Samuel\\OneDrive\\Skrivbord\\inlamning för ASP\\SchoolClassApplication\\SchoolClassApplication\\Views\\SchoolClassStudents\\Create.cshtml",
+      "TargetPath": "Views\\SchoolClassStudents\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Samuel\\OneDrive\\Skrivbord\\inlamning för ASP\\SchoolClassApplication\\SchoolClassApplication\\Views\\SchoolClassStudents\\Edit.cshtml",
+      "TargetPath": "Views\\SchoolClassStudents\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\Samuel\\OneDrive\\Skrivbord\\inlamning för ASP\\SchoolClassApplication\\SchoolClassApplication\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
@@ -15618,6 +15643,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\Samuel\\OneDrive\\Skrivbord\\inlamning för ASP\\SchoolClassApplication\\SchoolClassApplication\\Views\\Users\\Create.cshtml",
+      "TargetPath": "Views\\Users\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\Samuel\\OneDrive\\Skrivbord\\inlamning för ASP\\SchoolClassApplication\\SchoolClassApplication\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
@@ -15630,6 +15660,11 @@
     {
       "FilePath": "c:\\Users\\Samuel\\OneDrive\\Skrivbord\\inlamning för ASP\\SchoolClassApplication\\SchoolClassApplication\\Views\\Shared\\_NavbarPartial.cshtml",
       "TargetPath": "Views\\Shared\\_NavbarPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Samuel\\OneDrive\\Skrivbord\\inlamning för ASP\\SchoolClassApplication\\SchoolClassApplication\\Views\\Classes\\Delete.cshtml",
+      "TargetPath": "Views\\Classes\\Delete.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15663,6 +15698,16 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\Samuel\\OneDrive\\Skrivbord\\inlamning för ASP\\SchoolClassApplication\\SchoolClassApplication\\Views\\Classes\\Create.cshtml",
+      "TargetPath": "Views\\Classes\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Samuel\\OneDrive\\Skrivbord\\inlamning för ASP\\SchoolClassApplication\\SchoolClassApplication\\Views\\Classes\\Details.cshtml",
+      "TargetPath": "Views\\Classes\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\Samuel\\OneDrive\\Skrivbord\\inlamning för ASP\\SchoolClassApplication\\SchoolClassApplication\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
       "TargetPath": "Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
       "FileKind": "mvc"
@@ -15678,6 +15723,16 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\Samuel\\OneDrive\\Skrivbord\\inlamning för ASP\\SchoolClassApplication\\SchoolClassApplication\\Views\\Users\\Index.cshtml",
+      "TargetPath": "Views\\Users\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Samuel\\OneDrive\\Skrivbord\\inlamning för ASP\\SchoolClassApplication\\SchoolClassApplication\\Views\\Classes\\Index.cshtml",
+      "TargetPath": "Views\\Classes\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\Samuel\\OneDrive\\Skrivbord\\inlamning för ASP\\SchoolClassApplication\\SchoolClassApplication\\Views\\Shared\\Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
       "FileKind": "mvc"
@@ -15690,6 +15745,11 @@
     {
       "FilePath": "c:\\Users\\Samuel\\OneDrive\\Skrivbord\\inlamning för ASP\\SchoolClassApplication\\SchoolClassApplication\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
       "TargetPath": "Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Samuel\\OneDrive\\Skrivbord\\inlamning för ASP\\SchoolClassApplication\\SchoolClassApplication\\Views\\Classes\\Edit.cshtml",
+      "TargetPath": "Views\\Classes\\Edit.cshtml",
       "FileKind": "mvc"
     }
   ],

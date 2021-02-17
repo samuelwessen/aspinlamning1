@@ -338,6 +338,11 @@ C:\Users\Samuel\OneDrive\Skrivbord\inlamning för ASP\SchoolClassApplication\Sch
 C:\Users\Samuel\OneDrive\Skrivbord\inlamning för ASP\SchoolClassApplication\SchoolClassApplication\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
 C:\Users\Samuel\OneDrive\Skrivbord\inlamning för ASP\SchoolClassApplication\SchoolClassApplication\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
 C:\Users\Samuel\OneDrive\Skrivbord\inlamning för ASP\SchoolClassApplication\SchoolClassApplication\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
+C:\Users\Samuel\OneDrive\Skrivbord\inlamning för ASP\SchoolClassApplication\SchoolClassApplication\obj\Debug\net5.0\Razor\Views\Classes\Create.cshtml.g.cs
+C:\Users\Samuel\OneDrive\Skrivbord\inlamning för ASP\SchoolClassApplication\SchoolClassApplication\obj\Debug\net5.0\Razor\Views\Classes\Delete.cshtml.g.cs
+C:\Users\Samuel\OneDrive\Skrivbord\inlamning för ASP\SchoolClassApplication\SchoolClassApplication\obj\Debug\net5.0\Razor\Views\Classes\Details.cshtml.g.cs
+C:\Users\Samuel\OneDrive\Skrivbord\inlamning för ASP\SchoolClassApplication\SchoolClassApplication\obj\Debug\net5.0\Razor\Views\Classes\Edit.cshtml.g.cs
+C:\Users\Samuel\OneDrive\Skrivbord\inlamning för ASP\SchoolClassApplication\SchoolClassApplication\obj\Debug\net5.0\Razor\Views\Classes\Index.cshtml.g.cs
 C:\Users\Samuel\OneDrive\Skrivbord\inlamning för ASP\SchoolClassApplication\SchoolClassApplication\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\Samuel\OneDrive\Skrivbord\inlamning för ASP\SchoolClassApplication\SchoolClassApplication\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\Users\Samuel\OneDrive\Skrivbord\inlamning för ASP\SchoolClassApplication\SchoolClassApplication\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
@@ -346,6 +351,8 @@ C:\Users\Samuel\OneDrive\Skrivbord\inlamning för ASP\SchoolClassApplication\Sch
 C:\Users\Samuel\OneDrive\Skrivbord\inlamning för ASP\SchoolClassApplication\SchoolClassApplication\obj\Debug\net5.0\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
 C:\Users\Samuel\OneDrive\Skrivbord\inlamning för ASP\SchoolClassApplication\SchoolClassApplication\obj\Debug\net5.0\Razor\Views\Shared\_NavbarPartial.cshtml.g.cs
 C:\Users\Samuel\OneDrive\Skrivbord\inlamning för ASP\SchoolClassApplication\SchoolClassApplication\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Samuel\OneDrive\Skrivbord\inlamning för ASP\SchoolClassApplication\SchoolClassApplication\obj\Debug\net5.0\Razor\Views\Users\Create.cshtml.g.cs
+C:\Users\Samuel\OneDrive\Skrivbord\inlamning för ASP\SchoolClassApplication\SchoolClassApplication\obj\Debug\net5.0\Razor\Views\Users\Index.cshtml.g.cs
 C:\Users\Samuel\OneDrive\Skrivbord\inlamning för ASP\SchoolClassApplication\SchoolClassApplication\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
 C:\Users\Samuel\OneDrive\Skrivbord\inlamning för ASP\SchoolClassApplication\SchoolClassApplication\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
 C:\Users\Samuel\OneDrive\Skrivbord\inlamning för ASP\SchoolClassApplication\SchoolClassApplication\obj\Debug\net5.0\SchoolClassApplication.RazorTargetAssemblyInfo.cache
@@ -356,6 +363,8 @@ C:\Users\Samuel\OneDrive\Skrivbord\inlamning för ASP\SchoolClassApplication\Sch
 C:\Users\Samuel\OneDrive\Skrivbord\inlamning för ASP\SchoolClassApplication\SchoolClassApplication\obj\Debug\net5.0\ref\SchoolClassApplication.dll
 C:\Users\Samuel\OneDrive\Skrivbord\inlamning för ASP\SchoolClassApplication\SchoolClassApplication\obj\Debug\net5.0\SchoolClassApplication.pdb
 C:\Users\Samuel\OneDrive\Skrivbord\inlamning för ASP\SchoolClassApplication\SchoolClassApplication\obj\Debug\net5.0\SchoolClassApplication.genruntimeconfig.cache
-C:\Users\Samuel\OneDrive\Skrivbord\inlamning för ASP\SchoolClassApplication\SchoolClassApplication\obj\Debug\net5.0\Razor\Views\Users\Index.cshtml.g.cs
-C:\Users\Samuel\OneDrive\Skrivbord\inlamning för ASP\SchoolClassApplication\SchoolClassApplication\obj\Debug\net5.0\SchoolClassApplication.csprojAssemblyReference.cache
-C:\Users\Samuel\OneDrive\Skrivbord\inlamning för ASP\SchoolClassApplication\SchoolClassApplication\obj\Debug\net5.0\Razor\Views\Users\Create.cshtml.g.cs
+C:\Users\Samuel\OneDrive\Skrivbord\inlamning för ASP\SchoolClassApplication\SchoolClassApplication\obj\Debug\net5.0\Razor\Views\SchoolClassStudents\Create.cshtml.g.cs
+C:\Users\Samuel\OneDrive\Skrivbord\inlamning för ASP\SchoolClassApplication\SchoolClassApplication\obj\Debug\net5.0\Razor\Views\SchoolClassStudents\Delete.cshtml.g.cs
+C:\Users\Samuel\OneDrive\Skrivbord\inlamning för ASP\SchoolClassApplication\SchoolClassApplication\obj\Debug\net5.0\Razor\Views\SchoolClassStudents\Details.cshtml.g.cs
+C:\Users\Samuel\OneDrive\Skrivbord\inlamning för ASP\SchoolClassApplication\SchoolClassApplication\obj\Debug\net5.0\Razor\Views\SchoolClassStudents\Edit.cshtml.g.cs
+C:\Users\Samuel\OneDrive\Skrivbord\inlamning för ASP\SchoolClassApplication\SchoolClassApplication\obj\Debug\net5.0\Razor\Views\SchoolClassStudents\Index.cshtml.g.cs
