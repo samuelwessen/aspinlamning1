@@ -15678,8 +15678,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\Samuel\\OneDrive\\Skrivbord\\inlamning för ASP\\SchoolClassApplication\\SchoolClassApplication\\Views\\Courses\\Index.cshtml",
+      "TargetPath": "Views\\Courses\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\Samuel\\OneDrive\\Skrivbord\\inlamning för ASP\\SchoolClassApplication\\SchoolClassApplication\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
       "TargetPath": "Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Samuel\\OneDrive\\Skrivbord\\inlamning för ASP\\SchoolClassApplication\\SchoolClassApplication\\Views\\Settings\\Index.cshtml",
+      "TargetPath": "Views\\Settings\\Index.cshtml",
       "FileKind": "mvc"
     },
     {

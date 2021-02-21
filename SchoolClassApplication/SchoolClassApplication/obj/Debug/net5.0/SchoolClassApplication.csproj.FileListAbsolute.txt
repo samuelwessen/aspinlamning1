@@ -371,3 +371,4 @@ C:\Users\Samuel\OneDrive\Skrivbord\inlamning för ASP\SchoolClassApplication\Sch
 C:\Users\Samuel\OneDrive\Skrivbord\inlamning för ASP\SchoolClassApplication\SchoolClassApplication\obj\Debug\net5.0\Razor\Views\Shared\_UserPartialView.cshtml.g.cs
 C:\Users\Samuel\OneDrive\Skrivbord\inlamning för ASP\SchoolClassApplication\SchoolClassApplication\obj\Debug\net5.0\Razor\Views\Courses\Index.cshtml.g.cs
 C:\Users\Samuel\OneDrive\Skrivbord\inlamning för ASP\SchoolClassApplication\SchoolClassApplication\obj\Debug\net5.0\Razor\Views\Settings\Index.cshtml.g.cs
+C:\Users\Samuel\OneDrive\Skrivbord\inlamning för ASP\SchoolClassApplication\SchoolClassApplication\obj\Debug\net5.0\SchoolClassApplication.csprojAssemblyReference.cache
