@@ -1,21 +1,38 @@
 ﻿@model IEnumerable<ApplicationUser>
 
-<a asp-action="Create">Add New User</a>
+    <a asp-action="Create">Add New User</a>
 
-<h5 class="mt-4">Admins</h5>
-@foreach (var user in ViewBag.Admins)
-{
-    <div>@user.GetDisplayName</div>
-}
+    <h5 class="mt-4">Admins</h5>
+    @foreach (var user in ViewBag.Admins)
+    {
+        <div>@user.GetDisplayName</div>
+    }
 
-<h5 class="mt-4">Teachers</h5>
-@foreach (var user in ViewBag.Teachers)
-{
-    <div>@user.GetDisplayName</div>
-}
+    <h5 class="mt-4">Teachers</h5>
+    @foreach (var user in ViewBag.Teachers)
+    {
+        <div>@user.GetDisplayName</div>
+    }
 
-<h5 class="mt-4">Students</h5>
-@foreach (var user in ViewBag.Students)
-{
-    <div>@user.GetDisplayName</div>
-}
+    <h5 class="mt-4">Students</h5>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        @foreach (var user in ViewBag.Students)
+        {
+            <div class="col">
+                <div id="users" class="card" style="width: 15rem;">                    
+                    @if (UserManager.GetUserAsync(User).Result.ProfilePicture != null)
+                    {
+                        <img class="userpicture" style="width:120px;height:120px; object-fit:cover; border-radius:50%" src="data:image/*;base64,@(Convert.ToBase64String(UserManager.GetUserAsync(User).Result.ProfilePicture))">
+                    }
+                    <div class="card-body">
+                        <h5 class="user-name">@user.GetDisplayName</h5>
+                        <p class="role-text">Role</p>
+                        <p class="class-text">Class</p>
+                    </div>                
+                </div>
+            </div>
+        }
+    </div>
+
+
+

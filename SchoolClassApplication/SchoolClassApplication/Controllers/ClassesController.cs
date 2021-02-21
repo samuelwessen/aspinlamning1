@@ -87,7 +87,8 @@ namespace SchoolClassApplication.Controllers
             {
                 return NotFound();
             }
-
+            //nu går det att välja en teacher via en selectlist i edit delen också
+            ViewBag.Teachers = await _userManager.GetUsersInRoleAsync("Teacher");
             var schoolClass = await _context.SchoolClasses.FindAsync(id);
             if (schoolClass == null)
             {

@@ -2,15 +2,18 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using SchoolClassApplication.Data;
 using SchoolClassApplication.Entities;
+using SchoolClassApplication.Models;
 
 namespace SchoolClassApplication.Controllers
 {
+    [Authorize(Roles = "Admin")]
     public class SchoolClassStudentsController : Controller
     {
         private readonly SchoolClassApplicationDbContext _context;
@@ -27,8 +30,9 @@ namespace SchoolClassApplication.Controllers
         public async Task<IActionResult> Index()
         {
             var schoolClassApplicationDbContext = _context.SchoolClassStudents.Include(s => s.SchoolClass);
-            return View(await schoolClassApplicationDbContext.ToListAsync());
+            return View(await schoolClassApplicationDbContext.ToListAsync());            
         }
+
 
         // GET: SchoolClassStudents/Details/5
         public async Task<IActionResult> Details(string id)

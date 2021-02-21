@@ -15618,6 +15618,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\Samuel\\OneDrive\\Skrivbord\\inlamning för ASP\\SchoolClassApplication\\SchoolClassApplication\\Views\\Shared\\_UserPartialView.cshtml",
+      "TargetPath": "Views\\Shared\\_UserPartialView.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\Samuel\\OneDrive\\Skrivbord\\inlamning för ASP\\SchoolClassApplication\\SchoolClassApplication\\Views\\SchoolClassStudents\\Create.cshtml",
       "TargetPath": "Views\\SchoolClassStudents\\Create.cshtml",
       "FileKind": "mvc"

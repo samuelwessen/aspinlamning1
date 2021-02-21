@@ -44,6 +44,9 @@ namespace SchoolClassApplication.Models
         [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
         public string ConfirmPassword { get; set; }
 
+        //testar req här för att se med valideringen
+        [Required]
+        [StringLength(100,ErrorMessage ="Choose a role")]
         public string Role { get; set; }
 
         public string GetDisplayName => $"{FirstName} {LastName}";

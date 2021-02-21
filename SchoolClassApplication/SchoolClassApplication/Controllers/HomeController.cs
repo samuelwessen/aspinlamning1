@@ -1,5 +1,7 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using SchoolClassApplication.Data;
 using SchoolClassApplication.Models;
 using SchoolClassApplication.Services.Identity;
 using System;
@@ -17,7 +19,7 @@ namespace SchoolClassApplication.Controllers
 
         public HomeController(
             ILogger<HomeController> logger,
-            IIdentityService identityService)
+            IIdentityService identityService)            
         {
             _logger = logger;
             _identityService = identityService;
@@ -30,7 +32,7 @@ namespace SchoolClassApplication.Controllers
         }
 
         public IActionResult Privacy()
-        {
+        {            
             return View();
         }
 

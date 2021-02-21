@@ -69,3 +69,36 @@ body {
   white-space: nowrap;
   line-height: 60px; /* Vertically center the text there */
 }
+
+/* Min CSS*/
+.userpicture {
+  border-radius: 50%;
+  width: 8rem;  
+  position: relative;
+  top:35px;  
+}
+
+.card { 
+  border: none;
+  align-items: center;
+  text-align: center;  
+}
+
+.card-body {
+  padding-top: 35px;  
+  width: 14rem;
+  background-color: blanchedalmond;
+  border-radius: 10px;  
+}
+
+.user-name {
+  font-weight: bolder;
+}
+
+.class-text {
+  opacity: 60%;
+}
+
+
+
+
