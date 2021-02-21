@@ -1,38 +1,58 @@
 ﻿@model IEnumerable<ApplicationUser>
 
-    <a asp-action="Create">Add New User</a>
+<a asp-action="Create">Add New User</a>
 
-    <h5 class="mt-4">Admins</h5>
+<h5 class="mt-4">Admins</h5>
+<div class="row row-cols-1 row-cols-md-3 g-4">
     @foreach (var user in ViewBag.Admins)
     {
-        <div>@user.GetDisplayName</div>
-    }
-
-    <h5 class="mt-4">Teachers</h5>
-    @foreach (var user in ViewBag.Teachers)
-    {
-        <div>@user.GetDisplayName</div>
-    }
-
-    <h5 class="mt-4">Students</h5>
-    <div class="row row-cols-1 row-cols-md-3 g-4">
-        @foreach (var user in ViewBag.Students)
-        {
-            <div class="col">
-                <div id="users" class="card" style="width: 15rem;">                    
-                    @if (UserManager.GetUserAsync(User).Result.ProfilePicture != null)
-                    {
-                        <img class="userpicture" style="width:120px;height:120px; object-fit:cover; border-radius:50%" src="data:image/*;base64,@(Convert.ToBase64String(UserManager.GetUserAsync(User).Result.ProfilePicture))">
-                    }
-                    <div class="card-body">
-                        <h5 class="user-name">@user.GetDisplayName</h5>
-                        <p class="role-text">Role</p>
-                        <p class="class-text">Class</p>
-                    </div>                
+        <div class="col">
+            <div id="users" class="card" style="width: 15rem;">
+                <img src="https://akns-images.eonline.com/eol_images/Entire_Site/2015717/rs_600x600-150817131954-600-kermit-lipton.jpg?fit=around%7C700:700&output-quality=90&crop=700:700;center,top" style="width:120px;height:120px; object-fit:cover; border-radius:50%" class="userpicture" alt="...">
+                <div class="card-body">
+                    <h5 class="user-name">@user.GetDisplayName</h5>
+                    <p class="role-text">Admin</p>
+                    <p class="class-text">Class</p>
                 </div>
             </div>
-        }
-    </div>
+        </div>
+    }
+</div>
+
+<h5 class="mt-4">Teachers</h5>
+<div class="row row-cols-1 row-cols-md-3 g-4">
+    @foreach (var user in ViewBag.Teachers)
+    {
+        <div class="col">
+            <div id="users" class="card" style="width: 15rem;">
+                <img src="https://i.pinimg.com/originals/08/7d/97/087d97d5e465ab415b1bb0e6a480a22e.jpg" style="width:120px;height:120px; object-fit:cover; border-radius:50%"  class="userpicture" alt="...">
+                
+                <div class="card-body">
+                    <h5 class="user-name">@user.GetDisplayName</h5>
+                    <p class="role-text">Teacher</p>
+                    <p class="class-text">Class</p>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+<h5 class="mt-4">Students</h5>
+<div class="row row-cols-1 row-cols-md-3 g-4">
+    @foreach (var user in ViewBag.Students)
+    {
+        <div class="col">
+            <div id="users" class="card" style="width: 15rem;">
+                <img src="https://em.wattpad.com/34bafafb012150db64de3e281b3b0e851a8b4af3/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f4a754f357932634d434d675671773d3d2d3931393530323833342e313632313163613035646231353363343231363631353134393136352e6a7067?s=fit&w=720&h=720" style="width:120px;height:120px; object-fit:cover; border-radius:50%" class="userpicture" alt="...">
+                <div class="card-body">
+                    <h5 class="user-name">@user.GetDisplayName</h5>
+                    <p class="role-text">Student</p>
+                    <p class="class-text">Class</p>
+                </div>
+            </div>
+        </div>
+    }
+</div>
 
 
 

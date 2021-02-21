@@ -63,7 +63,7 @@ namespace SchoolClassApplication.Controllers
                 if (result.Succeeded)
                 {
                     await _userManager.AddToRoleAsync(user, model.Role);
-                    return RedirectToAction("Index", "Users");
+                    return RedirectToAction("Index", "Users");                    
                 }
 
                 foreach (var error in result.Errors)

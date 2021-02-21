@@ -71,10 +71,8 @@ body {
 }
 
 /* Min CSS*/
-.userpicture {
-  border-radius: 50%;
-  width: 8rem;  
-  position: relative;
+.userpicture {  
+  position: relative;  
   top:35px;  
 }
 
@@ -98,6 +96,8 @@ body {
 .class-text {
   opacity: 60%;
 }
+
+
 
 
 
